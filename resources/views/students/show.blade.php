@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-<div class="card-header"><h5>Student page</h5></div>
+<div class="card-header"><h5>Students</h5></div>
  <div class="card-body">
     <div class="card-body">
         <h3 class="card-title">Name:{{$students->name}}</h3>

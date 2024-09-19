@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
-<div class="card-header"><h5>enrollments page</h5></div>
+<div class="card-header"><h5>Enrollments </h5></div>
  <div class="card-body">
     <div class="card-body">
         <h3 class="card-title">Enroll No:{{$enrollments->enroll_no}}</h3>

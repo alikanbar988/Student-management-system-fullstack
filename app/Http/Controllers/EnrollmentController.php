@@ -21,7 +21,7 @@ class EnrollmentController extends Controller
     {
         $batchs=Batch::pluck('name','id');
         $students=Student::pluck('name','id');
-        return view('enrollments.create',compact('batchs','students'));
+        return view('enrollments.create',compact('students','batchs'));
     }
 
 

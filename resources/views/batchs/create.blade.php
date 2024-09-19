@@ -2,7 +2,7 @@
 
 @section('content')
        
-          <div class="card-header">Courses Page</div>
+          <div class="card-header">Batch </div>
                      <div class="card-body">
                         <form action="{{ url('batchs') }}" method="post">
                            {!! csrf_field()!!}

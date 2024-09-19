@@ -2,7 +2,7 @@
 
 @section('content')
        
-          <div class="card-header">payments Page</div>
+          <div class="card-header">Payment </div>
                      <div class="card-body">
                         <form action="{{ url('/payments/'.$payments->id) }}" method="post">
                            {!! csrf_field()!!}
